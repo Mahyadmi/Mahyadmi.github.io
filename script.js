@@ -99,7 +99,7 @@ const lines = [
   ['  <span class="k">"experience"</span>: <span class="s">"~10 years in IT"</span>,', 80],
   ['  <span class="k">"degree"</span>: <span class="s">"MSc Software Eng (Distinction)"</span>,', 80],
   ['  <span class="k">"support"</span>: [<span class="s">"Windows"</span>, <span class="s">"M365"</span>, <span class="s">"Networking"</span>],', 80],
-  ['  <span class="k">"build"</span>: [<span class="s">"Python"</span>, <span class="s">"FastAPI"</span>, <span class="s">"Docker"</span>, <span class="s">"AWS"</span>],', 80],
+  ['  <span class="k">"build"</span>: [<span class="s">"Python"</span>, <span class="s">"C#/.NET"</span>, <span class="s">"Docker"</span>, <span class="s">"AWS"</span>],', 80],
   ['  <span class="k">"location"</span>: <span class="s">"Stoke-on-Trent, UK"</span>', 80],
   ['}', 300],
   ['<span class="p">$</span> ./status --open-to-work', 400],

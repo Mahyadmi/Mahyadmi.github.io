@@ -88,7 +88,7 @@
         </div>
         <ul class="about-cards">
           <li class="card reveal"><i>🛠️</i><div><h3>Fix it fast</h3><p>First-contact resolution, structured troubleshooting and clear escalation.</p></div></li>
-          <li class="card reveal"><i>🧩</i><div><h3>Build it right</h3><p>Clean, documented code with Python, FastAPI, Docker and AWS.</p></div></li>
+          <li class="card reveal"><i>🧩</i><div><h3>Build it right</h3><p>Clean, tested code with C# / .NET, Python, FastAPI, Docker and AWS.</p></div></li>
           <li class="card reveal"><i>💬</i><div><h3>Explain it simply</h3><p>Turning technical problems into language anyone can understand.</p></div></li>
         </ul>
       </div>
@@ -107,11 +107,11 @@
         <div class="skill-card reveal" data-cat="it"><h3>IT Support</h3><div class="chips"><span>1st &amp; 2nd line</span><span>Help desk</span><span>Fault diagnosis</span><span>Workstation setup</span><span>Knowledge base</span></div></div>
         <div class="skill-card reveal" data-cat="it"><h3>Systems &amp; Devices</h3><div class="chips"><span>Windows 10/11</span><span>Microsoft 365</span><span>Outlook &amp; Teams</span><span>Laptops &amp; desktops</span><span>Mobile devices</span><span>PC building</span></div></div>
         <div class="skill-card reveal" data-cat="it"><h3>Networking</h3><div class="chips"><span>Active &amp; passive infrastructure</span><span>TCP/IP</span><span>Subnetting</span><span>DNS</span><span>DHCP</span><span>LAN / Wi-Fi</span><span>VPN</span></div></div>
-        <div class="skill-card reveal" data-cat="dev"><h3>Languages</h3><div class="chips"><span>Python</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>SQL</span><span>Java</span></div></div>
-        <div class="skill-card reveal" data-cat="dev"><h3>Web &amp; Frameworks</h3><div class="chips"><span>FastAPI</span><span>REST APIs</span><span>WordPress</span><span>Responsive design</span><span>Figma</span></div></div>
-        <div class="skill-card reveal" data-cat="dev"><h3>Data</h3><div class="chips"><span>PostgreSQL</span><span>MySQL</span><span>Redis</span><span>MinIO</span><span>Python data analysis</span></div></div>
-        <div class="skill-card reveal" data-cat="cloud"><h3>Cloud</h3><div class="chips"><span>AWS Lambda</span><span>S3</span><span>API Gateway</span><span>Step Functions</span><span>VPN &amp; VPC</span><span>Virtual private servers</span></div></div>
-        <div class="skill-card reveal" data-cat="cloud"><h3>DevOps &amp; Practices</h3><div class="chips"><span>Docker</span><span>Docker Compose</span><span>Nginx</span><span>CI/CD</span><span>Git &amp; GitHub</span><span>Agile / Scrum</span><span>SonarQube</span></div></div>
+        <div class="skill-card reveal" data-cat="dev"><h3>Languages</h3><div class="chips"><span>Python</span><span>C#</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span><span>SQL</span><span>Java</span></div></div>
+        <div class="skill-card reveal" data-cat="dev"><h3>Web &amp; Frameworks</h3><div class="chips"><span>.NET MAUI</span><span>MVVM</span><span>FastAPI</span><span>REST APIs</span><span>WordPress</span><span>Responsive design</span><span>Figma</span></div></div>
+        <div class="skill-card reveal" data-cat="dev"><h3>Data</h3><div class="chips"><span>PostgreSQL</span><span>MySQL</span><span>SQLite</span><span>DynamoDB</span><span>Redis</span><span>MinIO</span><span>Python data analysis</span></div></div>
+        <div class="skill-card reveal" data-cat="cloud"><h3>Cloud</h3><div class="chips"><span>AWS Lambda</span><span>S3</span><span>API Gateway</span><span>SES</span><span>CloudWatch</span><span>Step Functions</span><span>VPN &amp; VPC</span><span>Virtual private servers</span></div></div>
+        <div class="skill-card reveal" data-cat="cloud"><h3>DevOps &amp; Practices</h3><div class="chips"><span>Docker</span><span>Docker Compose</span><span>Nginx</span><span>CI/CD</span><span>GitHub Actions</span><span>AWS SAM (IaC)</span><span>pytest &amp; xUnit</span><span>Git &amp; GitHub</span><span>Agile / Scrum</span><span>SonarQube</span></div></div>
       </div>
     </section>
 
@@ -189,6 +189,60 @@
           <div class="arch-line"></div>
           <div class="arch-row three"><span class="node">PostgreSQL</span><span class="node">Redis</span><span class="node">MinIO</span></div>
           <p class="arch-cap">Docker Compose · simulates AWS Lambda, Step Functions &amp; S3</p>
+        </div>
+      </article>
+
+      <article class="feature flip reveal tilt-soft">
+        <div class="feature-info">
+          <p class="tag">Featured · Cross-platform app · .NET MAUI</p>
+          <h3>Simple Bank App</h3>
+          <p>A banking app for Android, iOS, macOS and Windows with <strong>two-factor sign-in</strong>, account-to-account transfers, <strong>admin approval</strong> for large payments and <strong>fraud alerts</strong> when a transfer comes from a new location. Built for my MSc Critical Systems module, then refactored into a tested, layered codebase.</p>
+          <ul class="metrics">
+            <li><b>57</b><span>automated tests</span></li>
+            <li><b>4</b><span>platforms</span></li>
+            <li><b>2FA</b><span>email sign-in codes</span></li>
+          </ul>
+          <div class="chips sm"><span>C#</span><span>.NET MAUI</span><span>MVVM</span><span>SQLite</span><span>xUnit</span><span>GitHub Actions</span><span>PBKDF2</span></div>
+          <div class="cta">
+            <a class="btn" href="https://github.com/Mahyadmi/SimpleBankApp" target="_blank" rel="noopener">View on GitHub ↗</a>
+          </div>
+        </div>
+        <div class="arch" aria-label="Architecture overview">
+          <div class="arch-row"><span class="node">XAML Views<small>Android · iOS · macOS · Windows</small></span></div>
+          <div class="arch-line"></div>
+          <div class="arch-row"><span class="node">ViewModels<small>CommunityToolkit.Mvvm</small></span></div>
+          <div class="arch-line"></div>
+          <div class="arch-row"><span class="node hl">Core library<small>accounts · transfers · MFA · fraud rules</small></span></div>
+          <div class="arch-line"></div>
+          <div class="arch-row three"><span class="node">SQLite</span><span class="node">SMTP email</span><span class="node">IP lookup</span></div>
+          <p class="arch-cap">UI-free core · tested with xUnit in CI</p>
+        </div>
+      </article>
+
+      <article class="feature reveal tilt-soft">
+        <div class="feature-info">
+          <p class="tag">Featured · Serverless · AWS</p>
+          <h3>Secure One-Time File Sharing</h3>
+          <p>Send someone a file that can be downloaded <strong>exactly once</strong> and <strong>expires automatically</strong>. Files go straight from the browser to encrypted S3, the recipient is emailed via SES, and an atomic DynamoDB update guarantees a single download. The whole stack is defined as <strong>infrastructure as code</strong>. Built for my MSc DevOps &amp; Agile in AWS module using Scrum.</p>
+          <ul class="metrics">
+            <li><b>1</b><span>download per link</span></li>
+            <li><b>36</b><span>automated tests</span></li>
+            <li><b>5</b><span>AWS services</span></li>
+          </ul>
+          <div class="chips sm"><span>Python</span><span>AWS Lambda</span><span>S3</span><span>DynamoDB</span><span>SES</span><span>API Gateway</span><span>AWS SAM</span><span>pytest</span></div>
+          <div class="cta">
+            <a class="btn" href="https://github.com/Mahyadmi/secure-file-share-aws" target="_blank" rel="noopener">View on GitHub ↗</a>
+          </div>
+        </div>
+        <div class="arch" aria-label="Architecture overview">
+          <div class="arch-row"><span class="node">Web page<small>upload · download</small></span></div>
+          <div class="arch-line"></div>
+          <div class="arch-row"><span class="node hl">API Gateway<small>HTTP API · throttled</small></span></div>
+          <div class="arch-line"></div>
+          <div class="arch-row three"><span class="node">Upload<small>Lambda</small></span><span class="node">Notify<small>Lambda</small></span><span class="node">Download<small>Lambda</small></span></div>
+          <div class="arch-line"></div>
+          <div class="arch-row three"><span class="node">S3<small>encrypted</small></span><span class="node">DynamoDB<small>TTL</small></span><span class="node">SES<small>email</small></span></div>
+          <p class="arch-cap">AWS SAM template · CI with moto-mocked AWS</p>
         </div>
       </article>
 
