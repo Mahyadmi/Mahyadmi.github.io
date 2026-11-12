@@ -158,6 +158,9 @@ h3{font-size:1.12rem;font-weight:700;letter-spacing:-.01em}
 .arch-line::after{content:"";position:absolute;left:0;top:-10px;width:2px;height:10px;background:#fff;animation:flow 1.6s linear infinite}
 @keyframes flow{to{top:24px}}
 .arch-cap{margin-top:16px;font-size:.76rem;color:var(--muted);font-family:"JetBrains Mono",monospace;text-align:center}
+.feature+.feature{margin-top:16px}
+.feature.flip{grid-template-columns:.9fr 1.1fr}
+.feature.flip .arch{order:-1}
 .cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:16px}
 .pcard{padding:26px;border-radius:var(--radius);background:var(--card);border:1px solid var(--card-b);transition:transform .4s var(--ease),border-color .3s}
 .pcard:hover{transform:translateY(-6px);border-color:rgba(125,211,252,.35)}
@@ -209,7 +212,8 @@ h3{font-size:1.12rem;font-weight:700;letter-spacing:-.01em}
 @media (max-width:960px){
   .hero{grid-template-columns:1fr;padding-top:120px;gap:60px}
   .hero-visual{max-width:540px}
-  .about,.feature,.edu{grid-template-columns:1fr}
+  .about,.feature,.feature.flip,.edu{grid-template-columns:1fr}
+  .feature.flip .arch{order:0}
   .cards3{grid-template-columns:1fr 1fr}
   .stats{grid-template-columns:repeat(2,1fr)}
 }
