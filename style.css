@@ -163,6 +163,7 @@ h3{font-size:1.12rem;font-weight:700;letter-spacing:-.01em}
 .feature.flip .arch{order:-1}
 .cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:16px}
 .cards3.four{grid-template-columns:repeat(2,1fr)}
+.cards3.four > :last-child:nth-child(odd){grid-column:1/-1}
 .pcard .cta{margin-top:16px}
 .pcard{padding:26px;border-radius:var(--radius);background:var(--card);border:1px solid var(--card-b);transition:transform .4s var(--ease),border-color .3s}
 .pcard:hover{transform:translateY(-6px);border-color:rgba(125,211,252,.35)}
